@@ -1,0 +1,89 @@
+#canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+/* Definir uma paleta de cores azuis */
+:root {
+    --cor-primaria: #3498db; /* Azul claro */
+    --cor-secundaria: #2980b9; /* Azul escuro */
+    --cor-texto: #333; /* Cor do texto principal */
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Define a fonte para Comic Sans MS e, se não estiver disponível, para qualquer fonte cursive ou sans-serif */
+    background-color: #fff; /* Cor de fundo branca */
+    color: var(--cor-texto);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: var(--cor-primaria);
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 20px;
+  }
+  
+  /* Barra de navegação */
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto dos links */
+  }
+  
+  /* Conteúdo principal */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Botões */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: var(--cor-primaria);
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Estilos para links */
+  a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
